@@ -8,11 +8,3 @@ export const Section = ({ title, children }) => {
     </SectionBox>
   );
 };
-// export const Section = ({ title, children }) => {
-//   return (
-//     <SectionBox>
-//       <SectionTitle>{title}</SectionTitle>
-//       {children}
-//     </SectionBox>
-//   );
-// };
