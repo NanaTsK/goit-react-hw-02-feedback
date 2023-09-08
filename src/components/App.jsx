@@ -10,8 +10,7 @@ export const App = () => {
   );
 };
 
-{
-  /* <div className="Container">
+/* <div className="Container">
   <section>
     <h1>Section Title</h1>
     <p>Some content related to this section.</p>
@@ -23,7 +22,6 @@ export const App = () => {
   </section>
   ;
 </div>; */
-}
 
 // import Header from './1-Header/Header';
 // import Content from './2-Content/Content';
