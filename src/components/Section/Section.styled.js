@@ -17,7 +17,7 @@ export const SectionTitle = styled('h2')({
 });
 
 export const SectionBox = styled('section')({
-  //   paddingTop: '10px',
-  //   paddingBottom: '40px',
+  paddingTop: '10px',
+  paddingBottom: '40px',
   //   textAlign: 'center',
 });
