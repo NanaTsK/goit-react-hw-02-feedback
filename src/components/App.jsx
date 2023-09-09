@@ -2,6 +2,7 @@ import { Container } from './index.styled';
 import { Section } from './Section/Section';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Component } from 'react';
+import { Notification } from './Notification/Notification';
 
 export class App extends Component {
   state = {
@@ -19,7 +20,9 @@ export class App extends Component {
             onLeaveFeedback={this.handlerFeedback}
           />
         </Section>
-        <Section title="Statistics"></Section>
+        <Section title="Statistics">
+          <Notification message="There is no feedback"></Notification>
+        </Section>
       </Container>
     );
   }
