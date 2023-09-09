@@ -6,7 +6,6 @@ export const SectionTitle = styled('h2')({
   letterSpacing: '0.9px',
   textTransform: 'capitalize',
   marginBottom: '18px',
-  //   textAlign: 'center',
 });
 
 export const SectionBox = styled('section')({
