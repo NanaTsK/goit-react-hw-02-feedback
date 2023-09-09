@@ -5,10 +5,11 @@ export const SectionTitle = styled('h2')({
   textShadow: '1px 3px 0 #505050, -1px 3px 0 #505050',
   letterSpacing: '0.9px',
   textTransform: 'capitalize',
+  marginBottom: '18px',
   //   textAlign: 'center',
 });
 
 export const SectionBox = styled('section')({
   paddingTop: '10px',
-  paddingBottom: '40px',
+  paddingBottom: '20px',
 });
