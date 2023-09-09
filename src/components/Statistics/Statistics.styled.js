@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const StatsList = styled('ul')({
-  //   xxx
+  //   xxxxx
 });
 
 export const StatsTextGood = styled('p')({
@@ -19,10 +19,10 @@ export const StatsTextBad = styled('p')({
   textShadow: '1px 1px 0 whitesmoke',
 });
 
-export const StatsTextPositive = styled('p')({
-  textShadow: '1px 1px 0 rgb(20, 231, 160)',
-});
-
 export const StatsTextTotal = styled('p')({
   textShadow: '1px 1px 0 rgba(20, 231, 160, 0.4)',
+});
+
+export const StatsTextPositive = styled('p')({
+  textShadow: '1px 1px 0 rgb(20, 231, 160)',
 });
