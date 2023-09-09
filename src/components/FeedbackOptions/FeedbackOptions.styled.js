@@ -1,18 +1,5 @@
 import { styled } from 'styled-components';
 
-// export const SectionTitle = styled('h2')({
-//   fontSize: '24px',
-//   textShadow: '1px 3px 0 #505050, -1px 3px 0 #505050',
-//   letterSpacing: '0.9px',
-//   textTransform: 'capitalize',
-//   //   textAlign: 'center',
-// });
-
-// export const SectionBox = styled('section')({
-//   paddingTop: '10px',
-//   paddingBottom: '40px',
-// });
-
 export const FeedbackList = styled('ul')({
   display: 'flex',
   justifyContent: 'center',
@@ -41,22 +28,22 @@ export const FeedbackBtn = styled('button')({
   },
 
   'li:nth-child(1) &': {
-    backgroundColor: 'rgba(20, 231, 160, 0.4)',
+    backgroundColor: 'rgba(20, 231, 160, 0.2)',
   },
   'li:nth-child(2) &': {
-    backgroundColor: 'rgba(243, 243, 116, 0.4)',
+    backgroundColor: 'rgba(243, 243, 116, 0.2)',
   },
   'li:nth-child(3) &': {
-    backgroundColor: 'rgba(239, 128, 128, 0.4)',
+    backgroundColor: 'rgba(239, 128, 128, 0.2)',
   },
 
   'li:nth-child(1) &:hover': {
-    backgroundColor: 'rgb(20, 231, 160)',
+    backgroundColor: 'rgba(20, 231, 160, 0.6)',
   },
   'li:nth-child(2) &:hover': {
-    backgroundColor: 'rgb(243, 243, 116)',
+    backgroundColor: 'rgba(243, 243, 116, 0.6)',
   },
   'li:nth-child(3) &:hover': {
-    backgroundColor: 'rgb(239, 128, 128)',
+    backgroundColor: 'rgba(239, 128, 128, 0.6)',
   },
 });

@@ -1,14 +1,5 @@
 import { FeedbackList, FeedbackBtn } from './FeedbackOptions.styled';
 
-// export const Section = ({ title, children }) => {
-//   return (
-//     <SectionBox>
-//       <SectionTitle>{title}</SectionTitle>
-//       {children}
-//     </SectionBox>
-//   );
-// };
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <FeedbackList>
